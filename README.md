@@ -17,7 +17,7 @@ Some toy projects I made:
     
   - [dumb_bot](https://github.com/barryZZJ/dumb_bot):
 
-    A platform-independent bot framework that is interacted purely based on string. Supports subcommands and positional args like `/cmd subcmd args kwarg=val`, and interactive conversations. Improved and pruned based on telegrambot.
+    A platform-independent bot framework that is interacted purely based on string. Developed new supports on (infinite) subcommands and keyword args like `/cmd subcmd args kwarg=val`. Improved and pruned based on telegrambot.
     
 - [wecombots](https://github.com/barryZZJ/wecombots):
 
@@ -113,7 +113,7 @@ Some toy projects I made:
     
   - [dumb_bot](https://github.com/barryZZJ/dumb_bot):
 
-    一个独立于任何平台的机器人框架，纯基于字符串进行交互。支持链式命令、位置参数，例如 `/cmd subcmd args kwarg=val`，以及交互式对话。基于 telegrambot 改进和精简而来。
+    一个不依赖通信应用平台的机器人框架，纯基于字符串进行交互。开发(无限)链式子命令、键值参数功能，例如 `/cmd subcmd args kwarg=val`，以及交互式对话。基于 telegrambot 改进和精简而来。
     
 - [wecombots](https://github.com/barryZZJ/wecombots):
 
