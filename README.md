@@ -7,18 +7,15 @@
 Some toy projects I made:
 
 ### Web apps
-- [myflaskserver](https://github.com/barryZZJ/myflaskserver):
-  
-  A Flask-based personal web service. It is mainly used as an endpoint for responding my WeCom bot messages, with some other features like a dashboard for redirecting to all web services I have deployed, and exposing webhook endpoints for [FreshrssCrawler](https://github.com/barryZZJ/freshrsscrawler). Also include two WeCom bots: `TVSubscriberBot` for subscribing TV programs and `DrinkBot` for recording daily drink intake. Both bots support interactive dialogues and scheduled tasks.
-  
-  - [TVSubscribeBot](https://github.com/zhimengsub/TVSubscribeBot):
 
-    Example usage of [`dumb_bot`](https://github.com/barryZZJ/dumb_bot) that queries and subscribe tv programs. The bot interactively ask for tv information like channel name and program title then subscribe that program. Also supports scheduled queries.
-    
-  - [dumb_bot](https://github.com/barryZZJ/dumb_bot):
+- [dumb_bot](https://github.com/barryZZJ/dumb_bot):
 
-    A platform-independent bot framework that is interacted purely based on string. Developed new supports on (infinite) subcommands and keyword args like `/cmd subcmd args kwarg=val`. Developed and pruned based on telegrambot.
-    
+  A platform-independent bot framework that is interacted purely based on string. Developed new supports on (infinite) subcommands and keyword args like `/cmd subcmd args kwarg=val`. Developed and pruned based on telegrambot.
+  
+- [TVSubscribeBot](https://github.com/zhimengsub/TVSubscribeBot):
+
+  Example usage of [`dumb_bot`](https://github.com/barryZZJ/dumb_bot) that queries and subscribe tv programs. The bot interactively ask for tv information like channel name and program title then subscribe that program. Also supports scheduled queries.
+      
 - [wecombots](https://github.com/barryZZJ/wecombots):
 
   A collection of small automated WeCom bots, including automated website check-in bot with clicking captcha solvers, scheduled RSS crawl and notification bot.
@@ -71,6 +68,10 @@ Some toy projects I made:
 
   Scripts for automatically making check-in reports.
 
+- [myflaskserver](https://github.com/barryZZJ/myflaskserver):
+  
+  A Flask-based personal web service. It is mainly used as an endpoint for responding my WeCom bot messages, with some other features like a dashboard for redirecting to all web services I have deployed, and exposing webhook endpoints for [FreshrssCrawler](https://github.com/barryZZJ/freshrsscrawler). Also include two WeCom bots: `TVSubscriberBot` for subscribing TV programs and `DrinkBot` for recording daily drink intake. Both bots support interactive dialogues and scheduled tasks.
+  
 ### Automation tools
 
 - [minesweeper_classic](https://github.com/barryZZJ/minesweeper_classic):
@@ -121,18 +122,15 @@ Some toy projects I made:
 我做过的一些玩具项目：
 
 ### Web 应用
-- [myflaskserver](https://github.com/barryZZJ/myflaskserver):
-  
-  一个基于 Flask 的个人网络服务。主要作为企业微信机器人的消息回复端，同时也包含一些其他功能如 自建服务重定向 Dashboard，以及为 [FreshrssCrawler](https://github.com/barryZZJ/freshrsscrawler) 暴露 webhook 接口。项目还包含两个企业微信机器人：`TVSubscriberBot` 用于订阅电视节目，`DrinkBot` 用于记录每日饮水量。两个机器人都支持交互式对话和定时任务。
-  
-  - [TVSubscribeBot](https://github.com/zhimengsub/TVSubscribeBot):
 
-    [`dumb_bot`](https://github.com/barryZZJ/dumb_bot) 的一个实际用例，用于查询和订阅电视节目。机器人会通过交互方式询问频道名、节目标题等电视节目信息，然后订阅该节目；同时也支持定时自动查询。
-    
-  - [dumb_bot](https://github.com/barryZZJ/dumb_bot):
+- [dumb_bot](https://github.com/barryZZJ/dumb_bot):
 
-    一个不依赖通信应用平台的机器人框架，纯基于字符串进行交互。实现(无限)链式子命令、键值参数功能，例如 `/cmd subcmd args kwarg=val`，以及交互式对话。基于 telegrambot 改进和精简而来。
-    
+  一个不依赖通信应用平台的机器人框架，纯基于字符串进行交互。实现(无限)链式子命令、键值参数功能，例如 `/cmd subcmd args kwarg=val`，以及交互式对话。基于 telegrambot 改进和精简而来。
+  
+- [TVSubscribeBot](https://github.com/zhimengsub/TVSubscribeBot):
+
+  [`dumb_bot`](https://github.com/barryZZJ/dumb_bot) 的一个实际用例，用于查询和订阅电视节目。机器人会通过交互方式询问频道名、节目标题等电视节目信息，然后订阅该节目；同时也支持定时自动查询。
+  
 - [wecombots](https://github.com/barryZZJ/wecombots):
 
   一组小型自动化企业微信机器人，包括支持顺序点击验证码的网站自动签到机器人、RSS定时爬虫推送机器人。
@@ -183,7 +181,11 @@ Some toy projects I made:
 - [CQU_crona_auto_report](https://github.com/barryZZJ/CQU_crona_auto_report)
 
   自动打卡脚本。
-
+  
+- [myflaskserver](https://github.com/barryZZJ/myflaskserver):
+  
+  一个基于 Flask 的个人网络服务。主要作为企业微信机器人的消息回复端，同时也包含一些其他功能如 自建服务重定向 Dashboard，以及为 [FreshrssCrawler](https://github.com/barryZZJ/freshrsscrawler) 暴露 webhook 接口。项目还包含两个企业微信机器人：`TVSubscriberBot` 用于订阅电视节目，`DrinkBot` 用于记录每日饮水量。两个机器人都支持交互式对话和定时任务。
+  
 ### 自动化工具
 
 - [minesweeper_classic](https://github.com/barryZZJ/minesweeper_classic):
